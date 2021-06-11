@@ -130,11 +130,13 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
-  /*Your code here*/
+function getLastReview(array) {
+  let i = array.length; 
+   i = i - 1;
+  return array[i]
 } 
 
-
+console.log(getLastReview(reviews)); 
 
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
 
